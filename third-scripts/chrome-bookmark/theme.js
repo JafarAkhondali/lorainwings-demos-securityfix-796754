@@ -1,2 +1,0 @@
-javascript:(function(){const docStyle=document.documentElement.style;if(!window.modeIndex){window.modeIndex=0};const styleList=['','invert(85%) hue-rotate(180deg)','invert(100%) hue-rotate(180deg)','grayscale(100%)','grayscale(0.20)'];modeIndex=modeIndex>=styleList.length-1?0:modeIndex+1;docStyle.filter=styleList[modeIndex];document.body.querySelectorAll('img, picture, video').forEach((el)=>(el.style.filter=modeIndex?`invert(1)hue-rotate(180deg)`:''))})()
-

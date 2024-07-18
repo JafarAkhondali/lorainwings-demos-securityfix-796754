@@ -1,9 +1,0 @@
-.item-container {
-  list-style: none;
-}
-
-.item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}

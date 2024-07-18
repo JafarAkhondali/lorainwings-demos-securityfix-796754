@@ -1,7 +1,0 @@
-FROM node:11
-LABEL org.opencontainers.image.authors="lorainwings"
-ADD . /Users/lorain/Coding/Private/demos/node/express-basic/app
-WORKDIR /Users/lorain/Coding/Private/demos/node/express-basic/app
-RUN npm install --registry=https://registry.npmmirror.com
-CMD node middware-internal.js
-

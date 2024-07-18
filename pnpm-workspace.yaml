@@ -1,6 +1,0 @@
-packages:
-  - 'projects/**'
-  - 'projects/**/**'
-  - 'node/**'
-  - 'third-scripts/**'
-  - 'code-snippets/**'
